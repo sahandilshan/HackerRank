@@ -7,7 +7,7 @@ public class BetweenTwoSets {
         int count=0;
         for (int i=a[a.length-1];i<=100;i++)
         {
-            boolean number=true,cNumber=true;
+            boolean number=true,cNumber=true;//
 
             for (int x:a)
             {
