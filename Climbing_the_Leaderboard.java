@@ -19,17 +19,9 @@ public class Climbing_the_Leaderboard {
             }
             i++;
         }
-//        if(i==scores.length && alice[0]!=rankVal)
-//        {
-//            rank++;
-//            rankVal=alice[0];
-//        }
-//        if(i!=scores.length)
-//        {
-//            rank++;
-//            rankVal=alice[0];
-//        }
 
+
+        //to set update the rank by one
         if(alice[0]!=rankVal)
         {
             rank++;
