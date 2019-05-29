@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 public class MigratoryBirds {
     static int migratoryBirds(List<Integer> arr) {
@@ -20,19 +21,27 @@ public class MigratoryBirds {
                     count++;
                 }
 
-
                 if(count>maxCount)
                 {
                     maxCount=count;
                     max=temp;
+
                 }
+
+
+
                 if (temp!=arr.get(j))
                 {
+
+                    i=j-1;
                     break;
                 }
+
             }
         }
 
         return max;
     }
+
+
 }
